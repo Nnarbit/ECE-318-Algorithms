@@ -1,0 +1,27 @@
+
+Find the shortest path.
+
+Building on assignment 3:
+
+Implement a shortest path algorithm to work on the data in the intersections
+and connections files.
+
+You do not need to use a heap, but you do need to use a priority queue of
+some kind.
+
+Allow the user to enter two intersection numbers,
+find the shortest path from the first to the second,
+print out step-by-step driving directions listing 
+   each segment of road to be followed,
+   how long that segment is,
+   the segment's approximate direction.
+
+for example:
+
+from intersection 19321 take US-22 3.5 miles W to intersection 19417
+from intersection 19417 take US-217 5.2 miles SW to intersection 19392
+from intersection 19392 take ME-19 1.7 miles S to intersection 19210
+
+and so on. This sample is not an actual shortest path; it is just to
+suggest a neat and tidy output format to you.
+

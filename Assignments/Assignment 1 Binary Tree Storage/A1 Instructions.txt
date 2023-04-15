@@ -1,0 +1,45 @@
+
+This is identical to the last assignment from ECE218 last semester, except that
+one requirement has been added: You must be able to delete an entry from the tree.
+
+The file /home/218/database.txt contains 10,000 lines of data. Each line describes
+one person: Social security number, birth date (YYYYMMDD), first name, last name,
+and zip code.
+
+Here are six unexciting lines from the middle of the file:
+
+    525373469 19630128 Nancy Frankenstein 88539
+    525388530 19630228 Darcy Epstein 56906
+    525397776 19710519 Frances Cadwallader 88625
+    525535897 19361217 Edwin Frogmorton 07004
+    525753047 19380123 Alexander Jones 24267
+    525780779 19420616 Tom Wilson 39264
+
+You are to write a program that reads this file and stores its information in an 
+ordinary Binary Tree. The tree should be ordered on the person's name - primarily 
+last name, but when two people have the same last name, order them by first name.
+
+Once your program has constructed the list, it should enter an interactive loop,
+taking commands from the user:
+
+FIND firstname lastname
+   - display all information about the named person,
+     your program must not crash if no such person exists!
+
+PRINT
+   - display all information about everyone in the database, in
+     alphabetical order based on their names.
+
+ZIP zipcode
+   - display the names of all people living in the given zip code
+
+OLDEST
+   - print the name and zipcode of the oldest person in the database.
+
+DELETE firstname lastname
+   - remove the indicated entry from the tree.
+     your program must not crash if no such person exists!
+
+EXIT
+   - exit from the program.
+

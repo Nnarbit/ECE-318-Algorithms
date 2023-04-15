@@ -1,0 +1,14 @@
+Shortest Path Assignment:
+create a new datasate,
+create a subset of inteconnections
+helps to debug
+
+floating points can cause issues, may not be stored accurately
+try not using doubles
+no more than 3 decimal places
+can just store them as ints
+
+
+
+
+

@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\all">
+      <UniqueIdentifier>{1490821f-4980-4aaf-96a3-86025e13cbb7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="intersections.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="connections.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="coverage.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="geog.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="namedPlaces318.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="top_level.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="library.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="library.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ECE318Assignment5.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="all\usaW70N25D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW70N30D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW70N30D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW70N35D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW70N35D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW70N40D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW70N40D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW70N45D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW70N45D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW70N50D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW70N50D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW75N25D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW75N30D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW75N30D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW75N35D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW75N35D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW75N40D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW75N40D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW75N45D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW75N45D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW75N50D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW75N50D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW80N25D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW80N30D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW80N30D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW80N35D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW80N35D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW80N40D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW80N40D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW80N45D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW80N45D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW80N50D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW80N50D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW85N25D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW85N30D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW85N30D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW85N35D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW85N35D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW85N40D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW85N40D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW85N40D20.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW85N45D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW85N45D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW85N50D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW85N50D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW85N50D20.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW85N50D30.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW90N25D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW90N30D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW90N30D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW90N35D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW90N35D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW90N40D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW90N40D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW90N45D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW90N45D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW90N50D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW90N50D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW95N25D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW95N30D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW95N30D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW95N35D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW95N35D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW95N40D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW95N40D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW95N40D20.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW95N45D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW95N45D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW95N50D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW95N50D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW95N50D20.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW95N50D30.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW100N25D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW100N30D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW100N30D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW100N35D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW100N35D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW100N40D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW100N40D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW100N45D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW100N45D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW100N50D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW100N50D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW105N25D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW105N30D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW105N30D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW105N35D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW105N35D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW105N40D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW105N40D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW105N40D20.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW105N45D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW105N45D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW105N50D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW105N50D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW105N50D20.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW105N50D30.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW110N25D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW110N30D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW110N30D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW110N35D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW110N35D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW110N40D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW110N40D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW110N45D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW110N45D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW110N50D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW110N50D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW115N25D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW115N30D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW115N30D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW115N35D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW115N35D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW115N40D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW115N40D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW115N40D20.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW115N45D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW115N45D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW115N50D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW115N50D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW115N50D20.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW115N50D30.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW120N25D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW120N30D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW120N30D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW120N35D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW120N35D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW120N40D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW120N40D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW120N45D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW120N45D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW120N50D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW120N50D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW125N25D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW125N30D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW125N30D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW125N35D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW125N35D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW125N40D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW125N40D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW125N40D20.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW125N45D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW125N45D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW125N50D5.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW125N50D10.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW125N50D20.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW125N50D30.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW125N50D60.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+    <None Include="all\usaW130N50D80.dat">
+      <Filter>Resource Files\all</Filter>
+    </None>
+  </ItemGroup>
+</Project>

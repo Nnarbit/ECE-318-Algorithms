@@ -1,0 +1,77 @@
+
+
+Friendly Graphical Shortest Path.
+
+Design and implement a program that accepts from the user the name and
+state of two places in North America. It must look these places up in 
+the named-places file (as in assignment 2, the hash table) to discover
+their closest locations in the intersections file and their longitudes
+and latitudes.
+
+It must then scan this map coverage list
+     http://rabbit.eng.miami.edu/geographical/bintiles/coverage.txt
+to find the smallest map tile that covers both places.
+
+  (You can't open a URL in C++ as though it were a file. You'll
+   need to download the file to the computer you are using)
+
+  (The information on each line is the range of latitude, followed
+   by the range of longitude, followed by the file name)
+
+When the correct map tile file is selected, your program should open
+a graphics window of the right size, and draw the map nicely, in colours
+that reasonably represent altitude. Remember these are binary files.
+You must use the standard C++ library methods for reading the file,
+not the older C functions.
+
+The individual map tile files are here:
+     http://rabbit.eng.miami.edu/geographical/bintiles/
+In that folder, one of the first links is to a file called "all.zip",
+which contains all of the map files compressed together, so you don't
+have to download them all individually. The zip file is about 42 MB long.
+
+Now your program must find the shortest route between the two locations, 
+and draw it on the map.
+
+Also the program should print helpful driving instructions. The exact format
+is up to you, but it should be something along these lines:
+
+  Go North on I-95 for 52 miles to near Pompano Beach
+  West on FL-814 for 6 miles to near Margate
+  North on FL-817 for 2 miles to Coral Springs, your destination.
+
+Note that long roads are split up into small segments. We don't want to see
+
+  North on I-95 for 1.5 miles
+  North on I-95 for 2.1 miles
+  North on I-95 for 1.3 miles
+  North on I-95 for 0.7 miles
+  North on I-95 for 1.0 miles
+
+Wait until there is a change, and just output (for that example)
+
+  North on I-95 for 6.6 miles
+
+The files containing the roads and intersections are of course the ones
+we examined in class 11, links to them and a reminder of
+their format are in the class notes for that day.
+
+You may #include <vector> if you haven't got a good working implementation
+of your own. Any other STL include, ask me about it first. In particular,
+you may have trouble if you try to use the library priority queue. Don't
+use it.
+
+Turn in a single document (that probably means word) containing all of
+your code, clearly readable in a sensible fixed-width font, any special
+instructions or explanations, and a screen-shot or two demonstrating it.
+
+
+Summary:
+  1. Find two places selected by user
+  2. Find map tile that covers both of them
+  3. Find shortet route between them
+  4. Draw shortest route on map
+  5. Print driving instructions
+  6. Make it look good in a single document
+
+

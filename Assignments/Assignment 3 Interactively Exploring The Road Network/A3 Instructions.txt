@@ -1,0 +1,35 @@
+
+Build in memory, as a structure of interconnected nodes, the graph described by these files:
+   http://rabbit.eng.miami.edu/class/een318/intersections.txt
+   http://rabbit.eng.miami.edu/class/een318/connections.txt
+   http://rabbit.eng.miami.edu/class/een318/geog.txt
+
+Your program should then ask the user to specify a starting location, and allow him/her/it
+to interactively navigate through the map.
+
+
+example
+
+Location to start: 19999
+
+Location 19999, 0.66 miles from Shelby, NC
+roads leading away:
+  1: NC-18, 1.005 miles to location 19977
+  2: US-74, 2.521 miles to location 19991
+  3: US-74, 3.749 miles to location 20006
+  4: NC-18, 7.565 miles to location 20159
+take which road? 3
+
+Location 20006, 1.85 miles from Light Oak, NC
+roads leading away:
+  1: bus-US-74, 3.812 miles to location 19977
+  2: US-74, 3.749 miles to location 19999
+  3: US-74, 4.805 miles to location 20022
+take which road? 1
+
+Location 19977, ... etc.
+
+
+
+
+
